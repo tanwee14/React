@@ -1,0 +1,23 @@
+/* styles.css */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  align-items: center;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.inner-container {
+  width: 100%;
+  max-width: 20rem; /* Equivalent to max-w-sm in Tailwind (640px/4) */
+  margin: 0 auto;   /* Equivalent to mx-auto in Tailwind */
+}
+
+.justify-end {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1rem; /* Equivalent to mb-4 in Tailwind */
+}

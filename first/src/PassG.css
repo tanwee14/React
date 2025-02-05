@@ -1,0 +1,19 @@
+.box{
+    display: grid;
+    place-content: center;
+    margin-top: 70px;
+    align-items: center;
+    background: rgb(1, 48, 37);
+    color: beige;
+    font-size: 14px;
+    
+}
+.pass{
+    height:8px;
+    outline: none;
+    transition: opacity 0.2s ;
+    background: rgb(11, 168, 188);
+}
+.slider{
+    background: rgb(7, 126, 112);
+}

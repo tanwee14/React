@@ -1,0 +1,13 @@
+.navbar {
+    background-color: blue;
+    padding: 10px;
+  }
+  
+  .btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  

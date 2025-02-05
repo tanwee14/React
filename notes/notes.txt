@@ -1,0 +1,25 @@
+REACT :
+
+Hooks :
+UseState : to update state 
+const[time,setTime]=useState(2.00)
+
+UseEffect : takes a callback func and a dependency array
+every time the components in the dependency array change , the function specified is called
+useEffect({},[func,components])
+
+useCallback..(same syntax as useEffect)
+usually for writing functions
+
+useId()
+gives unique ids
+const ids=useId()
+
+useParams()
+if u enter smthg after slash in browser it will be rendered
+const uid=useParams()
+<h1> {uid}</>
+
+Router :
+Link tag : used instead of <a> tag so that the page does not load unlike in a tag
+

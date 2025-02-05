@@ -1,0 +1,37 @@
+/* Styles for the header component */
+.head {
+    background-color: #333;
+    padding: 20px;
+    color: white;
+  }
+  
+  .comp ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  .comp li {
+    float: left;
+  }
+  
+  .comp li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .comp li a:hover {
+    background-color: #111;
+  }
+  
+  /* Clear floats after the list items */
+  .comp::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  

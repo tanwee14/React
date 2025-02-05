@@ -1,0 +1,126 @@
+/* Header.css */
+
+/* General styles */
+header.header {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    width: 100%; /* Occupy full width */
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav.nav {
+    border-bottom: 1px solid #d1d5db;
+    padding: 10px 24px; /* Adjust padding as needed */
+}
+
+.container {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px; /* Adjust padding to match nav padding */
+    box-sizing: border-box; /* Ensure padding is included in the width */
+}
+
+/* Logo styles */
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+    height: 2rem; /* Adjust height of the logo */
+}
+
+/* Button styles */
+.button-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-button {
+    font-size: 0.875rem;
+    padding: 0.625rem 1rem;
+    border-radius: 0.375rem;
+    outline: none;
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+    text-decoration: none;
+    margin-right: 0.5rem; /* Adjust margin between buttons */
+}
+
+.header-button-login {
+    color: #4b5563;
+    border: 1px solid #d1d5db;
+}
+
+.header-button-login:hover {
+    background-color: #edf2f7;
+}
+
+.header-button-get-started {
+    color: #ffffff;
+    background-color: #f97316;
+    border: 1px solid #f97316;
+}
+
+.header-button-get-started:hover {
+    background-color: #e85500;
+    border-color: #e85500;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Navigation links */
+.nav-links-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav-link {
+    margin-right: 1.5rem;
+    font-size: 0.875rem;
+    color: #6b7280;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.header-nav-link:hover {
+    color: #f97316;
+}
+
+.header-nav-link.active-link {
+    color: #f97316;
+    font-weight: 600;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px 16px; /* Adjust padding for smaller screens */
+    }
+
+    .header-logo {
+        height: 1.5rem; /* Adjust height of the logo for smaller screens */
+    }
+
+    .header-nav-links {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+        margin-top: 1rem;
+    }
+
+    .header-nav-link {
+        margin-right: 0;
+        margin-bottom: 0.5rem;
+    }
+}

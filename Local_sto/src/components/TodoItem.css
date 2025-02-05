@@ -1,0 +1,43 @@
+.item {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.tod {
+  margin-right: 10px;
+}
+
+input[type="text"] {
+  flex: 1;
+  margin-right: 10px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="text"][readonly] {
+  background-color: #f9f9f9;
+}
+
+input[type="text"].completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.editbtn, .Delete {
+  margin-left: 5px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.editbtn:disabled, .Delete:disabled {
+  cursor: not-allowed;
+}
+
+.editbtn:hover:not(:disabled), .Delete:hover:not(:disabled) {
+  background-color: #f0f0f0;
+}

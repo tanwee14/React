@@ -1,0 +1,106 @@
+/* Home.css */
+
+/* General container styles */
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80rem; /* Adjust max width as needed */
+}
+
+/* Aside container styles */
+.aside-container {
+    position: relative;
+    overflow: hidden;
+    color: black;
+    border-radius: 0.5rem; /* Adjust border radius as needed */
+    margin-left: 0.5rem; /* Adjust margin as needed */
+    margin-right: 0.5rem; /* Adjust margin as needed */
+    padding-top: 4rem; /* Adjust padding as needed */
+    padding-bottom: 4rem; /* Adjust padding as needed */
+}
+
+/* Text container styles */
+.text-container {
+    position: relative;
+    z-index: 10;
+    max-width: 80rem; /* Adjust max width as needed */
+    padding-left: 1rem; /* Adjust padding as needed */
+    padding-right: 1rem; /* Adjust padding as needed */
+    padding-bottom: 5rem; /* Adjust padding as needed */
+    padding-top: 2.5rem; /* Adjust padding as needed */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Header styles */
+.header {
+    max-width: 40rem; /* Adjust max width as needed */
+    margin-top: 20rem; /* Adjust margin as needed */
+    text-align: right;
+    margin-left: auto;
+}
+
+/* Title styles */
+.title {
+    font-size: 2.5rem; /* Adjust font size as needed */
+    font-weight: bold;
+}
+
+/* Subtitle styles */
+.subtitle {
+    display: none;
+}
+
+/* Download button styles */
+.download-button {
+    display: inline-flex;
+    color: white;
+    align-items: center;
+    padding-left: 1.5rem; /* Adjust padding as needed */
+    padding-right: 1.5rem; /* Adjust padding as needed */
+    padding-top: 0.75rem; /* Adjust padding as needed */
+    padding-bottom: 0.75rem; /* Adjust padding as needed */
+    font-weight: medium;
+    background-color: #ff7f00; /* Adjust background color as needed */
+    border-radius: 0.5rem; /* Adjust border radius as needed */
+    text-decoration: none;
+}
+
+.download-button:hover {
+    opacity: 0.75;
+}
+
+/* Image container styles */
+.image-container {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    padding-top: 3rem; /* Adjust padding as needed */
+    height: 100%;
+}
+
+/* Image styles */
+.image1 {
+    width: 24rem; /* Adjust width as needed */
+}
+
+/* Center image container styles */
+.center-image-container {
+    display: grid;
+    place-items: center;
+    margin-top: 5rem; /* Adjust margin as needed */
+}
+
+/* Center image styles */
+.image2 {
+    width: 12rem; /* Adjust width as needed */
+}
+
+/* Main title styles */
+.main-title {
+    text-align: center;
+    font-size: 1.5rem; /* Adjust font size as needed */
+    padding-top: 2.5rem; /* Adjust padding as needed */
+    padding-bottom: 2.5rem; /* Adjust padding as needed */
+    font-weight: medium;
+}
